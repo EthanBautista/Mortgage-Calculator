@@ -140,11 +140,11 @@
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:ems="10"
-            android:hint="@string/ammortization_period_placeholder"
+            android:hint="@string/amortization_period_placeholder"
+            android:importantForAutofill="no"
             android:inputType="numberDecimal"
             android:minHeight="48dp"
-            tools:ignore="TextContrastCheck"
-            android:importantForAutofill="no" />
+            tools:ignore="TextContrastCheck" />
     </LinearLayout>
 
     <Button

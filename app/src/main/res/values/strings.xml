@@ -11,7 +11,7 @@
     <string name="interest_rate_label">Interest rate (in percent)</string>
     <string name="amortization_period_label">Amortization period (in years)</string>
     <string name="interest_rate_placeholder">Enter interest rate</string>
-    <string name="ammortization_period_placeholder">Enter ammortization period</string>
+    <string name="amortization_period_placeholder">Enter amortization period</string>
     <string name="calculate">Calculate</string>
     <string name="emi_display">0</string>
     <string name="emi_display_label">Monthly Payment</string>
