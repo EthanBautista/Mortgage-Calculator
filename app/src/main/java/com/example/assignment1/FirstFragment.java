@@ -58,7 +58,7 @@ public class FirstFragment extends Fragment {
                 binding.emiText.setVisibility(View.VISIBLE);
                 binding.emiText.setText(String.format("%.2f", emi));
             }else{
-                Toast.makeText(getActivity(),"Enter a valid value",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(),"Enter valid values",Toast.LENGTH_SHORT).show();
             }
 
         });
@@ -67,7 +67,7 @@ public class FirstFragment extends Fragment {
     // Check if text is empty and sends a Toast
     public boolean checkEmpty(String text){
         if (TextUtils.isEmpty(text)){
-            Toast.makeText(getActivity(),"Fill all values",Toast.LENGTH_LONG).show();
+            Toast.makeText(getActivity(),"Fill missing values",Toast.LENGTH_SHORT).show();
             return true;
         }
         return false;
