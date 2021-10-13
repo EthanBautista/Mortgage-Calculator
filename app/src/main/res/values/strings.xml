@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Assignment1</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Mortgage Calculator</string>
+
+    <string name="error">Enter a valid value</string>
+
+    <string name="enter_amount_placeholder">Enter amount</string>
+    <string name="mortgage_amount_label">Mortgage principal amount</string>
+    <string name="interest_rate_label">Interest rate (in percent)</string>
+    <string name="amortization_period_label">Amortization period (in years)</string>
+    <string name="interest_rate_placeholder">Enter interest rate</string>
+    <string name="ammortization_period_placeholder">Enter ammortization period</string>
+    <string name="calculate">Calculate</string>
+    <string name="emi_display">0</string>
+    <string name="emi_display_label">Monthly Payment</string>
+</resources>
